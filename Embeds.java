@@ -7,7 +7,7 @@ import java.awt.*;
 import java.time.OffsetDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class Embeds extends ListenerAdapter {
+public class Embeds extends ListenerAdapter {       //sei mal leise
 
     public void onMessageReceived(MessageReceivedEvent event) {
         if (event.getMessage().getContentStripped().startsWith(main.prefix+ "si")) {
